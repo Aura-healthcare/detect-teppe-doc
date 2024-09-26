@@ -8,15 +8,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Install the latest version of rye
+        uses: eifinger/setup-rye@v4
         with:
-          python-version: '3.x'
-      - name: Install Rye
-        run: |
-          curl -sSf https://rye-up.com/get | bash
-          echo "$HOME/.rye/shims" >> $GITHUB_PATH
+          enable-cache: true
       - name: Install dependencies
         run: |
           rye sync
