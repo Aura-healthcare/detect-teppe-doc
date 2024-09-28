@@ -15,19 +15,16 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
-  layout: side
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: blue
       accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: blue
       accent: lime
 
 nav:
@@ -55,9 +52,13 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/Aura-healthcare"  target="_blank" rel="noopener">Your Name</a>
+  &copy; 2024 <a href="https://github.com/Aura-healthcare"  target="_blank" rel="noopener">Laura Dumont</a>
 
 extra:
   social:
@@ -65,3 +66,7 @@ extra:
       link: https://github.com/Aura-healthcare
     - icon: fontawesome/brands/discord
       link: https://discord.com
+    - icon: fontawesome/brands/chrome
+      link: https://en.aura.healthcare/
+    - icon: fontawesome/solid/envelope
+      link: mailto:contact@aura.healthcare
