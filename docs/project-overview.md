@@ -46,8 +46,8 @@ Our project follows an Open Science approach, which enables:
 
 To contribute to the AURA project:
 
-1. Familiarize yourself with our [code of conduct](link-to-code-of-conduct)
-2. Check out our [contribution guidelines](link-to-contribution-guidelines)
+1. Familiarize yourself with our [code of conduct](dev-guide/code_of_conduct.md)
+2. Check out our [contribution guidelines](dev-guide/contributing.md)
 3. Explore our [current issues](link-to-issues) to find tasks you can help with
 4. Join our [community forum](link-to-forum) to connect with other contributors
 
