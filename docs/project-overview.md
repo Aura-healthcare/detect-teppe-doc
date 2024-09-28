@@ -1,21 +1,18 @@
 # Project Overview
 
-AURA (Automated Unobtrusive Response for Alerting) is an open-source, collaborative, non-profit project. Our mission is to develop a connected device that detects early signs of seizures to alert patients and caregivers.
-
-## Project Goals
-
-1. :heart: Improve quality of life for people with epilepsy
-2. :moneybag: Create an affordable and accessible solution
-3. :people_holding_hands: Foster a community of clinicians, developers, researchers, and users
-4. :rocket: Continuously improve the technology through open collaboration
+AURA is an open-source, collaborative, non-profit project. Our mission is to develop a connected device that detects early signs of seizures to alert patients and caregivers.
 
 ## Living Lab and Open Science Approach
 
-The [La Teppe](https://www.teppe.org/Presentation) medical facility serves as a unique Living Lab in France, allowing us to:
+[The La Teppe](https://www.teppe.org/Presentation) medical facility serves as a unique Living Lab[^1] in France, allowing us to:
 
-1. Test patient adoption of the connected patch
-2. Validate the effectiveness of the seizure detection system in real-world conditions
-3. Quickly evaluate the integration of these medical devices into medical practices and patient care
+1. :test_tube: Test patient adoption of the connected patch
+2. :microscope: Validate the effectiveness of the seizure detection system in real-world conditions
+3. :stethoscope: Quickly evaluate the integration of these medical devices into medical practices and patient care
+
+[^1]: A "Living Lab" is a methodology where citizens, residents, and users are considered key actors in research and innovation processes.
+
+
 
 Our project follows an Open Science approach, which enables:
 
@@ -62,9 +59,8 @@ We welcome contributions in various areas, including software development, hardw
 
 ## Resources
 
-- [GitHub Repository](link-to-repo)
-- [Documentation](link-to-docs)
-- [Development Roadmap](link-to-roadmap)
+- [GitHub Repository](https://github.com/Aura-healthcare)
+- [Development Roadmap](https://github.com/orgs/Aura-healthcare/projects/2)
 
 Thank you for your interest in the AURA project. Together, we can make a difference in the lives of people affected by epilepsy.
 
