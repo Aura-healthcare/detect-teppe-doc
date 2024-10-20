@@ -10,13 +10,13 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
-      - name: Install the latest version of rye
-        uses: eifinger/setup-rye@v4
+      - name: Install the latest version of uv
+        uses: eifinger/setup-uv@v2
         with:
           enable-cache: true
       - name: Install dependencies
         run: |
-          rye sync
+          uv sync
       - name: Build and deploy
         run: |
-          rye run mkdocs gh-deploy --force
+          uv run mkdocs gh-deploy --force
