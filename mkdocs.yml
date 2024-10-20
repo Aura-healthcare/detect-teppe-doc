@@ -31,7 +31,7 @@ nav:
   - Home: index.md
   - Aura Project Overview: project-overview.md
   - Getting Started:
-    - Quick Start Guide: getting-started/quick-start.md
+    - Data access: getting-started/data-access.md
   - User Guide:
     - Basic Usage: user-guide/basic-usage.md
   - Developer Guide:
